@@ -9,7 +9,7 @@ public class GameWindow extends JFrame {
     add(gamePanel);
     setLocationRelativeTo(null);
     setResizable(false);
-    pack();
+    pack(); // Set size of Window to the size of its component (JPanel in this case)
     setVisible(true);
   }
 }
